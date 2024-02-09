@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Ubuntu', sans-serif;;
+
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #ed5e93;
+  align-items: center;
+
+}
+
+.div-h1 {
+  width: 100%;
+  
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+
+}
+
+h1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 20px;
+
+}
+
+.div-sorteio {
+min-height: 470px;
+  padding: 50px 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.min {
+  display:row;
+  width: 150px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: none;
+  border-radius: 15px;
+  outline: none;
+  font-size: 20px;
+  background-color: #fff3fa;
+  margin-bottom: 15px;
+  
+
+  
+ 
+}
+
+.max {
+  display: row;
+  width: 150px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: none;
+  border-radius: 15px;
+  outline: none;
+  font-size: 20px;
+  background-color: #fff3fa;
+  margin-bottom: 15px;
+  
+
+  
+ 
+}
+
+.buscaBtn {
+  display: column;
+  width: 100px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  font-size: 20px;
+  background-color: #fff3fa;
+  border: none;
+  color: #000000;
+  margin-left: 30px;
+  cursor: pointer;
+
+}
+
+#result {
+  font-weight: 600px;
+  font-size: 50px;
+ margin-left: 50px;
+
+}
